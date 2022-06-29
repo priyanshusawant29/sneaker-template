@@ -49,3 +49,40 @@
 .navbar-user div{
     padding: 0 3rem;
 }
+
+.shoe-photo{
+    margin: 0 0 0 15rem;
+}
+
+.photo-main{
+    height: 400px;
+    border-radius: 1rem;
+}
+
+.shoe-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.shoe-list li{
+    height: 100px;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.photo-shoe{
+    height: 80px;
+    border-radius: 0.5rem;
+}
+
+.shoe-photo{
+    display: flex;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10rem;
+}
