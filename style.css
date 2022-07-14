@@ -1,5 +1,5 @@
 :root{
-    --dark: orangered;
+    --dark: rgb(255, 85, 0);
 }
 
 
@@ -8,6 +8,11 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Franklin Gothic Medium;
+}
+
 
 .Navbar{
     justify-content: space-between;
@@ -25,7 +30,7 @@
 
 .navbar-container{
     margin: 0 10rem 0 2rem;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .nav-list li{
@@ -81,14 +86,15 @@
 
 .wrapper{
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     justify-content: center;
     align-items: center;
-    padding-right: 10rem;
+    padding-right: 5rem; 
+    
 }
 
 .company{
-    width: 400px;
+    width: 500px;
     margin: 0 5rem;
 }
 
@@ -165,7 +171,7 @@
 }
 
 .btn-cart{
-    background: var(--dark);
+    background:orange;
     color: var(--primary);
     width: 12rem;
     height: 2rem;
